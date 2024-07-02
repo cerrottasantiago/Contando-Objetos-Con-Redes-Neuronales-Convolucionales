@@ -143,7 +143,7 @@ Profundidad: Igual al número de filtros aplicados en la capa de convolución.
 ➤Se ordenaron dentro de una carpeta llamada DataSet_1a20_NumeroDeImagenes_Maices_(Solos o Acompañamiento)_225x400_RGB.
 La misma tiene subcarpetas del 1 al 20 donde dentro se ordenaron las fotos segun su cantidad de maices. (Fotos de 1 maiz en carpeta 1 y asi sucesivamente).
 
-_[Datasets](https://github.com/Leandrituw/Contando-Objetos-Con-Redes-Neuronales-Convolucionales/tree/main/Armado_Del_Dataset)_
+_[Datasets](https://github.com/cerrottasantiago/Contando-Objetos-Con-Redes-Neuronales-Convolucionales/tree/main/Armado_Del_Dataset)_
 
 ➤Para almacenar los datasets y cargarlos en python los transformamos a archivos con la extension .npy que basicamente lo que hace es leer los archivos de la carpeta DataSet_1a20_NumeroDeImagenes_Maices_(Solos o Acompañamiento)_225x400_RGB y almacenar en una lista el numero de subcarpeta como etiqueta y dentro de la etiqueta guarda la imagen como lista.
 ¿Porque? Son faciles de cargar y leer en python y tiene un tamaño mucho menor que el dataset puro.
@@ -155,7 +155,7 @@ _[Datasets](https://github.com/Leandrituw/Contando-Objetos-Con-Redes-Neuronales-
 	<em> Figura 7 - Dataset </em>
 </div>
 
-_[Codigo_Armado_Del_Dataset](https://github.com/Leandrituw/Contando-Objetos-Con-Redes-Neuronales-Convolucionales/blob/main/Armado_Del_Dataset/Reducir_Resolucion_Crear_DataSet_RGB.py)_
+_[Codigo_Armado_Del_Dataset](https://github.com/cerrottasantiago/Contando-Objetos-Con-Redes-Neuronales-Convolucionales/blob/main/Armado_Del_Dataset/Reducir_Resolucion_Crear_DataSet_RGB.py)_
 
 ### 5. Diseño De La Red
 
@@ -181,7 +181,7 @@ _[Codigo_Armado_Del_Dataset](https://github.com/Leandrituw/Contando-Objetos-Con-
 	<em> Figura 9 - Summary </em>
 </div>
 
-_[Codigo_Entrenar_Red_Neuronal](https://github.com/Leandrituw/Contando-Objetos-Con-Redes-Neuronales-Convolucionales/blob/main/Entrenamiento_De_Arquitecturas/Entrenar_Red_Neuronal_RGB.py)_
+_[Codigo_Entrenar_Red_Neuronal](https://github.com/cerrottasantiago/Contando-Objetos-Con-Redes-Neuronales-Convolucionales/blob/main/Entrenamiento_De_Arquitecturas/Entrenar_Red_Neuronal_RGB.py)_
 
 ### 6. Prediccion y Resultados 
 
@@ -251,7 +251,7 @@ Luego se compara la prediccion con la etiqueta verdadera y se suman las que dio 
 
 ➤En proceso...
 
-_[Codigo_Prediccion](https://github.com/Leandrituw/Contando-Objetos-Con-Redes-Neuronales-Convolucionales/blob/main/Prediccion_De_Imagenes/Prediccion_RGB.py)_
+_[Codigo_Prediccion](https://github.com/cerrottasantiago/Contando-Objetos-Con-Redes-Neuronales-Convolucionales/blob/main/Prediccion_De_Imagenes/Prediccion_RGB.py)_
 
 ### 7. Recursos 
 
